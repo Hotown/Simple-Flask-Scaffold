@@ -1,6 +1,6 @@
 # MySQL
 mysql_db_username = 'root'
-mysql_db_password = 'neuqer2016'
+mysql_db_password = ''
 mysql_db_name = 'scafflod'
 mysql_db_host = '127.0.0.1:3306'
 
