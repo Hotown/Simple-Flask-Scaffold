@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
 
 
-class CURD():
+class CURD_MixIn():
     def add(self, resource):
         db.session.add(resource)
         return db.session.commit()
