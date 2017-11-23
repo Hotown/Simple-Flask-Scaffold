@@ -1,7 +1,7 @@
 # MySQL
 mysql_db_username = 'root'
 mysql_db_password = ''
-mysql_db_name = 'scafflod'
+mysql_db_name = 'scaffold'
 mysql_db_host = '127.0.0.1:3306'
 
 DEBUG = True

@@ -1,4 +1,4 @@
-from app.base_model import db, CURD_MixIn
+from app.basemodel import db, CURD_MixIn
 from marshmallow import validate
 from marshmallow_jsonapi import Schema, fields
 
@@ -19,6 +19,7 @@ class User(db.Model, CURD_MixIn):
 
     def __repr__(self):
         return '<User %r>' % self.account
+
 
 class UserSchema(Schema):
     not_blank = validate.Length(min=1, error='Field cannot be blank')
