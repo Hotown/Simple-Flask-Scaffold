@@ -6,3 +6,5 @@ Flask-Script==2.0.6
 PyMySQL==0.7.11
 marshmallow==2.14.0
 marshmallow-jsonapi==0.16.0
+Flask-Mail
+Celery==4.1.0
